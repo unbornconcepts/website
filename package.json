@@ -1,6 +1,19 @@
 {
-  "name": "site",
-  "version": "0.0.0",
+  "name": "unborn-concepts-site",
+  "subdomain": "unbornconcepts",
+  "domains": [
+    "unbornconcepts.com",
+    "www.unbornconcepts.com"
+  ],
+  "version": "0.0.8",
+  "private": true,
+  "scripts": {
+    "start": "app.js"
+  },
+  "files": [
+    "/dist/",
+    "app.js"
+  ],
   "dependencies": {
     "express": "~3.3.4"
   },
@@ -21,6 +34,6 @@
     "wiredep": "~1.1.0"
   },
   "engines": {
-    "node": ">=0.10.0"
+    "node": "0.10.x"
   }
 }
